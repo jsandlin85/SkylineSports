@@ -1,4 +1,4 @@
-## This is another little change for testing
+
 
 You can use this as a start point for managing a WordPress install with git.
 
