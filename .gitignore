@@ -3,6 +3,12 @@
 wp-config.php
 
 
+# Sass Cache #
+
+.sass-cache
+.sass-cache/*
+
+
 # OS Generated Files #
 
 .DS_Store
