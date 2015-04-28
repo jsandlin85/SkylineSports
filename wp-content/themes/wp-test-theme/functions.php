@@ -136,3 +136,17 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+add_filter('stylesheet_uri','wpi_stylesheet_uri',10,2);
+
+/**
+ * wpi_stylesheet_uri
+ * overwrite default theme stylesheet uri
+ * filter stylesheet_uri
+ * @see get_stylesheet_uri()
+ */
+function wpi_stylesheet_uri($stylesheet_uri, $stylesheet_dir_uri){
+
+    return $stylesheet_dir_uri.'/stylesheets/stylesheets/main.css';
+}
