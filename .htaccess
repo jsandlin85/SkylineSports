@@ -1,0 +1,11 @@
+# BEGIN WordPress
+
+# END WordPress
+
+#AuthType Basic
+#AuthName "Password Required"
+#AuthUserFile /home/production/.htpasswd
+
+<Limit GET POST>
+require valid-user
+</Limit>

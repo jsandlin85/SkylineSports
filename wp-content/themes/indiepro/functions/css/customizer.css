@@ -1,0 +1,49 @@
+#customize-control-featured_slider:after,
+#customize-control-header_padding:before,
+#customize-control-upload_background_image:after,
+#customize-control-indiepro_global_favicon:after,
+#customize-control-indiepro_global_apple_icon:after,
+#customize-control-font_headers_weight:after, 
+#customize-control-font_body_weight:after, 
+#customize-control-font_site_tagline_weight:after, 
+#customize-control-font_site_title_weight:after,
+#customize-control-indiepro_tagline_uppercase:after,
+#customize-control-indiepro_grid_sub_title:after,
+#customize-control-rss:before
+{
+    clear: both;
+	font-size:12px;
+	font-style:italic;
+	display:block;
+	color:#888;
+}
+#customize-control-rss:before {
+	content:"Note: Put the full url e.g. http://example.com/?feed=rss2";
+}
+#customize-control-featured_slider:after {
+	content:"Note: Check this box if you the featured slider to appear on the homepage.";
+}
+#customize-control-header_padding:before{
+	content:"Note: Use the exact same file name as your regular logo file and then just put @2x at the end of the name. For example logo@2x.png";
+}
+#customize-control-upload_background_image:after{
+	content:"Note: Make sure your background image is at least 1240px wide.";
+}
+#customize-control-indiepro_global_favicon:after{
+	content:"Note: Make sure your Favicon Dimensions are 32px x 32px and is saved as .png format";
+}
+#customize-control-indiepro_global_apple_icon:after{
+	content:"Note: Make sure your Apple App Icon Dimensions are 152px x 152px and is saved as .png format";
+}
+#customize-control-font_headers_weight:after, 
+#customize-control-font_body_weight:after, 
+#customize-control-font_site_tagline_weight:after, 
+#customize-control-font_site_title_weight:after {
+	content:"Note: Some font weights will not work with certain font families. Most will work set to Regular.";
+}
+#customize-control-indiepro_tagline_uppercase:after{
+	content:'Note: Depending on Font selection, you may not see any change to the font case.';
+}
+#customize-control-indiepro_grid_sub_title:after{
+	content:'Note: Use these fields if you have a message to add to the homepage.';
+}

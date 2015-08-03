@@ -1,0 +1,50 @@
+/*
+
+.article-wrapper{padding:10px;}
+.masonry-entry {
+	width:33.33%;
+}
+
+.masonry-entry .hentry{
+	border:2px solid #ccc;
+	border-radius: 3px;	
+	margin-left:3%;
+	padding:8px;
+}
+.masonry-entry .hentry:child{
+	margin-left: 0;
+}
+.masonry-entry img {
+	width:100%;
+	height:auto;
+}
+
+
+@media all and (max-width:580px){
+	.masonry-entry {
+		width:44.5%!important;
+	}
+	
+}
+@media all and (max-width:480px){
+	.masonry-entry {
+		width:98%!important;
+	}
+	
+}
+*/
+
+/*
+#masonry-loop .gridblock{
+	margin-left:0;
+	margin-right:0;
+	border:none;
+}
+*/
+
+/*
+#masonry-loop .gridblock:nth-child(even){
+	margin-left:1.25%;
+	margin-left:1.25%;
+}
+*/
