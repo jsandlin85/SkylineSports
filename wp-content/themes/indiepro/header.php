@@ -38,6 +38,7 @@
                         <nav id="site-navigation" class="main-navigation" role="navigation">
                             <a class="menu-toggle toggle-link"><i class="fa fa-bars" aria-hidden="true"></i><span class="screen-reader-text"><?php _e('Menu', 'indiepro'); ?></span></a>
                             <div class="nav-menu">
+                            <?php wp_loginout(); ?>
                             <?php wp_nav_menu( array( 
                                     'theme_location' => 'primary', 
                                      ) 
