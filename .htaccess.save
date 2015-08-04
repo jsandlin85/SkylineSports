@@ -1,12 +1,4 @@
 # BEGIN WordPress
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
 
 # END WordPress
 
@@ -18,7 +10,6 @@ RewriteRule . /index.php [L]
 #require valid-user
 #</Limit>
 
-
 # Deny by default 
 order deny,allow
 deny from all
@@ -27,4 +18,5 @@ deny from all
 # a username/password. Everyone other than these IPs will be 
 # prompted to enter credentials
 
-allow from 69.145.58.172
+allow from 108.61.228.107
+allow from 123.45.67.89
